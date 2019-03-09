@@ -1,3 +1,4 @@
+
 # Prerequisites
 *.d
 
@@ -35,6 +36,7 @@
 *.i*86
 *.x86_64
 *.hex
+ls
 
 # Debug files
 *.dSYM/
@@ -50,3 +52,7 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Ignore Documentation Directories and Files Generated Automatically
+doxygen.config
+/doc/
